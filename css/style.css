@@ -56,7 +56,11 @@ body {
     font-size: 17px;
     line-height: 1.75em;
     font-weight: 400;
-    background: #1b1b1b;
+    background: #2B2B2B
+    /* background: #8E8E90 */
+    /* background: #A5A299; */
+    /* background: #333333; */
+    /* background: #1b1b1b; */
 }
 img {
     width: 100%;
@@ -649,7 +653,8 @@ input[type="checkbox"] {
     color: #fff !important;
 }
 .nav-scroll {
-    background: #222222;
+    background: #2B2B2B;
+    /* background: #222222; */
     padding: 0 0 0 0;
     position: fixed;
     top: -100px;
