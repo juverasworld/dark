@@ -1,19 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vera - Photography Portfolio Template</title>
-    <meta name="description" content="Vera is a modern and elegant photography portfolio theme designed for creatives, photographers, and visual artists.">
-    <meta name="keywords" content="photography, portfolio, gallery, fullscreen, creative, responsive, Vera">
-    <meta name="author" content="DuruThemes">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/plugins.css">
-    <link rel="stylesheet" href="css/style.css">
+  <!-- ═══════════════════════════════════════════════
+       CORE / CHARSET
+  ═══════════════════════════════════════════════ -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ═══════════════════════════════════════════════
+       PRIMARY SEO
+  ═══════════════════════════════════════════════ -->
+  <title>globalperks | Photography Portfolio</title>
+  <meta name="description" content="globalperks is a photography brand capturing the world through a bold, timeless lens. Explore our portfolio of portraits, editorial shoots, and visual stories.">
+  <meta name="keywords" content="globalperks, Perka flash, photography, portfolio, photographer, editorial photography, portrait photography, visual storytelling, creative photography, photography brand">
+  <meta name="author" content="globalperks">
+  <link rel="canonical" href="https://globalperks.vercel.app/"><!-- 🔁 Replace with your actual Vercel domain -->
+
+  <!-- ═══════════════════════════════════════════════
+       ROBOTS
+  ═══════════════════════════════════════════════ -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <!-- ═══════════════════════════════════════════════
+       OPEN GRAPH (Facebook / LinkedIn / general)
+  ═══════════════════════════════════════════════ -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="globalperks">
+  <meta property="og:title" content="globalperks | Photography Portfolio">
+  <meta property="og:description" content="globalperks is a photography brand capturing the world through a bold, timeless lens. Explore our portfolio of portraits, editorial shoots, and visual stories.">
+  <meta property="og:url" content="https://globalperks.vercel.app/"><!-- 🔁 Replace with your actual Vercel domain -->
+  <meta property="og:image" content="https://globalperks.vercel.app/images/new/logos.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="globalperks Photography – portfolio cover image">
+  <meta property="og:locale" content="en_US">
+
+  <!-- ═══════════════════════════════════════════════
+       TWITTER / X CARD
+       Summary_large_image renders the full-width
+       preview card in tweets — best for photography
+  ═══════════════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Perka_flash">
+  <meta name="twitter:creator" content="@Perka_flash">
+  <meta name="twitter:title" content="globalperks | Photography Portfolio">
+  <meta name="twitter:description" content="globalperks is a photography brand capturing the world through a bold, timeless lens. Explore our portfolio of portraits, editorial shoots, and visual stories.">
+  <meta name="twitter:image" content="  https://globalperks.vercel.app/images/new/logos.png">
+  <meta name="twitter:image:alt" content="globalperks Photography – portfolio cover image">
+
+  <!-- ═══════════════════════════════════════════════
+       SCHEMA.ORG – STRUCTURED DATA
+       Helps Google display rich results for the brand
+  ═══════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "globalperks",
+    "url": "https://globalperks.com",
+    "logo": "https://globalperks.com/images/logo.png",
+    "image": "https://globalperks.com/images/og-cover.jpg",
+    "description": "globalperks is a photography brand capturing the world through a bold, timeless lens.",
+    "sameAs": [
+      "https://twitter.com/Perka_flash",
+      "https://x.com/Perka_flash"
+    ],
+    "priceRange": "$$"
+  }
+  </script>
+
+  <!-- ═══════════════════════════════════════════════
+       VERCEL / PERFORMANCE
+  ═══════════════════════════════════════════════ -->
+  <!-- Vercel Analytics (paste your script tag here if using @vercel/analytics) -->
+  <!-- <script defer src="/_vercel/insights/script.js"></script> -->
+
+  <!-- Theme colour for mobile browser chrome -->
+  <meta name="theme-color" content="#0a0a0a">
+
+  <!-- ═══════════════════════════════════════════════
+       FAVICON + APPLE TOUCH
+  ═══════════════════════════════════════════════ -->
+  <link rel="icon" type="image/x-icon" href="images/new/logos.png">
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest"> -->
+
+  <!-- ═══════════════════════════════════════════════
+       FONTS
+  ═══════════════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- ═══════════════════════════════════════════════
+       STYLES
+  ═══════════════════════════════════════════════ -->
+  <link rel="stylesheet" href="css/plugins.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Preloader -->
